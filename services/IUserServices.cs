@@ -9,5 +9,6 @@ namespace code_dotnet.services
         Task AddUserAsync(CreateUserDto user);
         Task UpdateUserAsync(UserEntity user);
         Task DeleteUserAsync(int id);
+        Task UpdateUserAsync(int id);
     }
 }
